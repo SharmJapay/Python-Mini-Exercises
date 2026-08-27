@@ -22,40 +22,46 @@ def get_names() -> list:
 def main() -> None:
     """Start the program and run all steps in order."""
 
-    original_name_list = get_names()
-    print(f"\nOriginal Name List: \n{original_name_list}\n")
-    print(f"No. of items: {len(original_name_list)} \n")
+    original_list = get_names()
 
-    print("---------------------------------------------------- \n")
     print(
-        "Method 1 - Converting list to dictionary as keys, and returning it back to a list \n"
+        "\nMethod 1 - Converting list to dictionary as keys, and returning it back to a list \n"
     )
 
-    unique_names1 = list(dict.fromkeys(original_name_list))
+    print(f"Original Name List: \n{original_list}\n")
+    print(f"No. of items: {len(original_list)} \n")
+
+    unique_names1 = list(dict.fromkeys(original_list))
 
     print(f"Unique List 1: \n{unique_names1}\n")
-    print(f"No. of items: {len(unique_names1)}\n")
+    print(f"No. of unique items: {len(unique_names1)}\n")
 
     print("---------------------------------------------------- \n")
     print(
         "Method 2 - Converting list to set, and returning it back to a list (random order)\n"
     )
 
-    unique_names2 = list(set(original_name_list))
+    print(f"Original Name List: \n{original_list}\n")
+    print(f"No. of items: {len(original_list)} \n")
+
+    unique_names2 = list(set(original_list))
 
     print(f"Unique List 2: \n{unique_names2}\n")
-    print(f"No. of items: {len(unique_names2)}\n")
+    print(f"No. of unique items: {len(unique_names2)}\n")
 
     print("---------------------------------------------------- \n")
     print("Method 3 - Using For Loop \n")
 
+    print(f"Original Name List: \n{original_list}\n")
+    print(f"No. of items: {len(original_list)} \n")
+
     unique_names3 = []
-    for name in original_name_list:
+    for name in original_list:
         if name not in unique_names3:
             unique_names3.append(name)
 
     print(f"Unique List 3: \n{unique_names3}\n")
-    print(f"No. of items: {len(unique_names3)}")
+    print(f"No. of unique items: {len(unique_names3)}")
 
 
 if __name__ == "__main__":
