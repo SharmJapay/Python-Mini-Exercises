@@ -14,6 +14,7 @@ Each file in this repository represents a standalone solution to a specific begi
 ## Completed Exercises
 * Remove Duplicates from a List
 * Remove Punctuations from a String
+* Reverse a String
 * Sort a List in Alphabetical Order
 * Sort Words from Input
 
