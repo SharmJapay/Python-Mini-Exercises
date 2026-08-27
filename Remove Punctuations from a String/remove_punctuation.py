@@ -18,7 +18,7 @@ def main():
     print(sanitized_string1)
 
     print("\n---------------------------------------------------- \n")
-    print("\nMethod 2 - Using For Loop Iteration\n")
+    print("Method 2 - Using For Loop Iteration\n")
 
     sanitized_string2 = ""
     for char in user_input:
@@ -29,7 +29,7 @@ def main():
     print(sanitized_string2)
 
     print("\n---------------------------------------------------- \n")
-    print("\nMethod 3 - Using .translate() & str.maketrans() methods\n")
+    print("Method 3 - Using .translate() & str.maketrans() methods\n")
 
     sanitized_string3 = user_input.translate(str.maketrans("", "", string.punctuation))
 

@@ -17,7 +17,7 @@ def main():
     print(sanitized_string1)
 
     print("\n---------------------------------------------------- \n")
-    print("\nMethod 2 - Using Slice Notation\n")
+    print("Method 2 - Using Slice Notation\n")
 
     sanitized_string2 = user_input[::-1]
 
@@ -26,7 +26,7 @@ def main():
     print(sanitized_string2)
 
     print("\n---------------------------------------------------- \n")
-    print("\nMethod 3 - Using list with .join() method\n")
+    print("Method 3 - Using list with .join() method\n")
 
     reverse_chars = []
     for char in list(user_input):
@@ -39,7 +39,7 @@ def main():
     print(sanitized_string3)
 
     print("\n---------------------------------------------------- \n")
-    print("\nMethod 4 - Using reversed() function with .join() method\n")
+    print("Method 4 - Using reversed() function with .join() method\n")
 
     sanitized_string4 = "".join(reversed(user_input))
 
