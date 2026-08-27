@@ -1,4 +1,4 @@
-"""Remove all duplicates in a list and then sort the list"""
+"""Different ways on how to remove all duplicates from a list"""
 
 import json
 import random
@@ -31,46 +31,30 @@ def main() -> None:
         "Method 1 - Converting list to dictionary as keys, and returning it back to a list \n"
     )
 
-    # Method 1 - Converting list to dictionary (as keys), and returning it back to a list
-    # Sort using .sort() method of lists (Touches original list)
     unique_names1 = list(dict.fromkeys(original_name_list))
-    unique_names1.sort()
 
-    print(f"Sorted List 1: \n{unique_names1}\n")
+    print(f"Unique List 1: \n{unique_names1}\n")
     print(f"No. of items: {len(unique_names1)}\n")
 
     print("---------------------------------------------------- \n")
-    print("Method 2 - Converting list to set, and returning it back to a list \n")
+    print(
+        "Method 2 - Converting list to set, and returning it back to a list (random order)\n"
+    )
 
-    # Method 2 - Converting list to set, and returning it back to a list
-    # Sort using sorted() python function - renders new list
     unique_names2 = list(set(original_name_list))
-    unique_names2 = sorted(unique_names2)
 
-    print(f"Sorted List 2: \n{unique_names2}\n")
+    print(f"Unique List 2: \n{unique_names2}\n")
     print(f"No. of items: {len(unique_names2)}\n")
 
     print("---------------------------------------------------- \n")
-    print("Method 3 - Using of For Loop \n")
+    print("Method 3 - Using For Loop \n")
 
-    # Method 3 - Using of For Loop
-    # Sort the new list using Bubble sort
     unique_names3 = []
     for name in original_name_list:
         if name not in unique_names3:
             unique_names3.append(name)
 
-    len_names = len(unique_names3)
-    for i in range(len_names):
-        for j in range(0, len_names - i - 1):
-            if unique_names3[j] > unique_names3[j + 1]:
-                # Swap the names
-                unique_names3[j], unique_names3[j + 1] = (
-                    unique_names3[j + 1],
-                    unique_names3[j],
-                )
-
-    print(f"Sorted List 3: \n{unique_names3}\n")
+    print(f"Unique List 3: \n{unique_names3}\n")
     print(f"No. of items: {len(unique_names3)}")
 
 
