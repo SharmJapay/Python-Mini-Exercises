@@ -4,7 +4,7 @@
 def main():
     """Start the program and run all steps in order."""
 
-    user_input = input("Enter words separated by spaces( ):")
+    user_input = input("Enter words separated by single space: ")
 
     # Make a list out of user input (except all extra spaces)
     word_list1 = [word for word in user_input.split(" ") if word != ""]
@@ -25,11 +25,11 @@ def main():
     print("Method 2 - Sort using sorted() python function (Renders a new list) \n")
     print(f"\nOriginal {word_list2 = }\n")
 
-    sorted_list = sorted(word_list2)
+    sorted_names = sorted(word_list2)
 
     print("Sorted List:")
 
-    for word in sorted_list:
+    for word in sorted_names:
         print(word)
 
     print("\n---------------------------------------------------- \n")
