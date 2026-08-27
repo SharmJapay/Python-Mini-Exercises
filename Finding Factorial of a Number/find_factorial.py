@@ -19,9 +19,7 @@ def main():
         except ValueError:  # Catches if the input cannot be converted to integer
             print("The input must be a number only (int or float)")
 
-    print(
-        "\nMethod 1 - Calculate using user defined 'factorial()' function with an argument 'number'\n"
-    )
+    # Method 1 - Calculate using user defined 'factorial()' function with an argument 'number
 
     if number < 0:
         print("Error: No factorials exists for negative numbers")
@@ -30,8 +28,7 @@ def main():
     else:
         print(f"The factorial of the {number} is {factorial(number)}")
 
-    print("\n---------------------------------------------------- \n")
-    print("Method 2 - Using For Loop Iteration\n")
+    # Method 2 - Using For Loop Iteration
 
     # Check if the input has factorials
     if number < 0:

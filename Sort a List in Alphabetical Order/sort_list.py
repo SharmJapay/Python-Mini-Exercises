@@ -26,25 +26,23 @@ def main() -> None:
     fruits2 = fruits1.copy()
     fruits3 = fruits1.copy()
 
-    print("\nMethod 1 - Sort using .sort() method of lists (Touches original list) \n")
+    # Method 1 - Sort using .sort() method of lists (Touches original list)
 
     print(f"{fruits1 = } \n")
 
     fruits1.sort()
 
-    print(f"Sorted fruits1: \n{fruits1}\n")
+    print(f"Sorted {fruits1 = }\n")
 
-    print("---------------------------------------------------- \n")
-    print("Method 2 - Sort using sorted() python function (Renders a new list) \n")
+    # Method 2 - Sort using sorted() python function (Renders a new list)
 
     print(f"{fruits2 = } \n")
 
     fruits2 = sorted(fruits2)
 
-    print(f"Sorted fruits2: \n{fruits2}\n")
+    print(f"Sorted {fruits2 = }\n")
 
-    print("---------------------------------------------------- \n")
-    print("Method 3 - Sort the new list using Bubble sort \n")
+    # Method 3 - Sort the new list using Bubble sort
 
     print(f"{fruits3 = } \n")
 
@@ -58,7 +56,7 @@ def main() -> None:
                     fruits3[j],
                 )
 
-    print(f"Sorted fruits3: \n{fruits3}\n")
+    print(f"Sorted {fruits3 = }\n")
 
 
 if __name__ == "__main__":

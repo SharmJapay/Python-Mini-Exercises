@@ -11,30 +11,27 @@ def main():
     word_list2 = word_list1.copy()
     word_list3 = word_list1.copy()
 
-    print("\nMethod 1 - Sort using .sort() method of lists (Touches original list) \n")
     print(f"\nOriginal {word_list1 = }\n")
+
+    # Method 1 - Sort using .sort() method of lists (Touches original list)
 
     word_list1.sort()
 
-    print("Sorted List:")
+    print("\nSorted List:")
 
     for word in word_list1:
         print(word)
 
-    print("\n---------------------------------------------------- \n")
-    print("Method 2 - Sort using sorted() python function (Renders a new list) \n")
-    print(f"\nOriginal {word_list2 = }\n")
+    # Method 2 - Sort using sorted() python function (Renders a new list)
 
     sorted_names = sorted(word_list2)
 
-    print("Sorted List:")
+    print("\nSorted List:")
 
     for word in sorted_names:
         print(word)
 
-    print("\n---------------------------------------------------- \n")
-    print("Method 3 - Sort the new list using Bubble sort \n")
-    print(f"\nOriginal {word_list3 = }\n")
+    # Method 3 - Sort the new list using Bubble sort
 
     len_word_list = len(word_list3)
     for i in range(len_word_list):
@@ -43,7 +40,7 @@ def main():
                 # Swap values of two index
                 word_list3[j], word_list3[j + 1] = word_list3[j + 1], word_list3[j]
 
-    print("Sorted List:")
+    print("\nSorted List:")
 
     for word in word_list3:
         print(word)
