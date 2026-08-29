@@ -13,6 +13,7 @@ Each file in this repository represents a standalone solution to a specific begi
 
 ## Completed Exercises
 * Concatenate Multiple Strings
+* Convert List to String
 * Finding Factorial of a Number
 * Remove Duplicates from a List
 * Remove Punctuations from a String

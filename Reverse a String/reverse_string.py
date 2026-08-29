@@ -9,19 +9,19 @@ def main():
 
     # Method 1 - Using For Loop
 
-    sanitized_string1 = ""
+    reversed_string1 = ""
     for char in user_input:
-        sanitized_string1 = char + sanitized_string1
+        reversed_string1 = char + reversed_string1
 
     print("Reversed String:")
-    print(sanitized_string1)
+    print(reversed_string1)
 
     # Method 2 - Using Slice Notation
 
-    sanitized_string2 = user_input[::-1]
+    reversed_string2 = user_input[::-1]
 
     print("Reversed String:")
-    print(sanitized_string2)
+    print(reversed_string2)
 
     # Method 3 - Using list with .join() method
 
@@ -36,10 +36,10 @@ def main():
 
     # Method 4 - Using reversed() function with .join() method
 
-    sanitized_string4 = "".join(reversed(user_input))
+    reversed_string4 = "".join(reversed(user_input))
 
     print("Reversed String:")
-    print(sanitized_string4)
+    print(reversed_string4)
 
 
 if __name__ == "__main__":
