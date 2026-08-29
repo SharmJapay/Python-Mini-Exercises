@@ -13,22 +13,26 @@ def main():
     # Method 1: Use of + and +=
     name = firstname + " " + lastname
     greet += " " + name
+
     print(greet)
 
     # Method 2: Use of f-Strings (Formatted String Literals)
     output = f"{greet1} {firstname} {lastname} \n"
+
     print(output)
 
     # Method 3: Use of str.format() Method (older version of f-Strings)
     # Using positional placeholders
     print("Hello, {}. Welcome to {}!".format("Bob", "Earth"))
+
     # Using keyword placeholders
     print("{greeting}, {name}!\n".format(greeting="Hi", name="Sara"))
 
-    # Method 4: Use of .join() method
+    # Method 4: Use of .join() string method
     words = ["Python", "is", "awesome"]
     sentence = " ".join(words)  # "Python is awesome"
     together = "".join(words)  # "Pythonisawesome"
+
     print(sentence)
     print(together, "\n")
 
@@ -38,6 +42,7 @@ def main():
         "that spans across multiple lines "
         "automatically.\n"
     )
+
     print(long_string)
 
     # Method 6: Use of Stream Building with io.StringI

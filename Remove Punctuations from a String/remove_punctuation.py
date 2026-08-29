@@ -9,7 +9,7 @@ def main():
     punctuations_list = list(string.punctuation)
     user_input = input("Enter words separated by single space:")
 
-    # Method 1 - Using List Comprehension with .join() method
+    # Method 1: Using List Comprehension with .join() string method
 
     filtered_chars = [char for char in user_input if char not in punctuations_list]
     sanitized_string1 = "".join(filtered_chars)
@@ -17,7 +17,7 @@ def main():
     print("String without punctuations:")
     print(sanitized_string1)
 
-    # Method 2 - Using For Loop Iteration
+    # Method 2: Using For Loop Iteration
 
     sanitized_string2 = ""
     for char in user_input:
@@ -27,7 +27,7 @@ def main():
     print("String without punctuations:")
     print(sanitized_string2)
 
-    # Method 3 - Using .translate() & str.maketrans() methods
+    # Method 3: Using .translate() & str.maketrans() methods
 
     sanitized_string3 = user_input.translate(str.maketrans("", "", string.punctuation))
 

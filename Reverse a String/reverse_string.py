@@ -7,7 +7,7 @@ def main():
     user_input = input("Enter a string:")
     print(f"Original {user_input = }")
 
-    # Method 1 - Using For Loop
+    # Method 1: Using For Loop
 
     reversed_string1 = ""
     for char in user_input:
@@ -16,14 +16,14 @@ def main():
     print("Reversed String:")
     print(reversed_string1)
 
-    # Method 2 - Using Slice Notation
+    # Method 2: Using Slice Notation
 
     reversed_string2 = user_input[::-1]
 
     print("Reversed String:")
     print(reversed_string2)
 
-    # Method 3 - Using list with .join() method
+    # Method 3: Using list with .join() string method
 
     reverse_chars = []
     for char in list(user_input):
@@ -34,7 +34,7 @@ def main():
     print("Reversed String:")
     print(sanitized_string3)
 
-    # Method 4 - Using reversed() function with .join() method
+    # Method 4: Using reversed() function with .join() string method
 
     reversed_string4 = "".join(reversed(user_input))
 

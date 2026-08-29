@@ -24,7 +24,7 @@ def main() -> None:
 
     original_list = get_names()
 
-    # Method 1 - Converting list to dictionary as keys, and returning it back to a list
+    # Method 1: Converting list to dictionary as keys, and returning it back to a list
 
     print(f"Original Name List: \n{original_list}\n")
     print(f"No. of items: {len(original_list)} \n")
@@ -34,14 +34,14 @@ def main() -> None:
     print(f"Unique List 1: \n{unique_names1}\n")
     print(f"No. of unique items: {len(unique_names1)}\n")
 
-    # Method 2 - Converting list to set, and returning it back to a list (random order)
+    # Method 2: Converting list to set, and returning it back to a list (random order)
 
     unique_names2 = list(set(original_list))
 
     print(f"Unique List 2: \n{unique_names2}\n")
     print(f"No. of unique items: {len(unique_names2)}\n")
 
-    # Method 3 - Using For Loop
+    # Method 3: Using For Loop
 
     unique_names3 = []
     for name in original_list:

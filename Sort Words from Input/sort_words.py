@@ -13,7 +13,7 @@ def main():
 
     print(f"\nOriginal {word_list1 = }\n")
 
-    # Method 1 - Sort using .sort() method of lists (Touches original list)
+    # Method 1: Sort using .sort() method of lists (Touches original list)
 
     word_list1.sort()
 
@@ -22,7 +22,7 @@ def main():
     for word in word_list1:
         print(word)
 
-    # Method 2 - Sort using sorted() python function (Renders a new list)
+    # Method 2: Sort using sorted() python function (Renders a new list)
 
     sorted_names = sorted(word_list2)
 
@@ -31,7 +31,7 @@ def main():
     for word in sorted_names:
         print(word)
 
-    # Method 3 - Sort the new list using Bubble sort
+    # Method 3: Sort the new list using Bubble sort
 
     len_word_list = len(word_list3)
     for i in range(len_word_list):
