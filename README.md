@@ -12,6 +12,7 @@ This repository contains my personal solutions to various beginner-level Python 
 Each file in this repository represents a standalone solution to a specific beginner problem. The focus is on writing clean, readable code while mastering basic Python syntax and problem-solving techniques.
 
 ## Completed Exercises
+* Concatenate Multiple Strings
 * Finding Factorial of a Number
 * Remove Duplicates from a List
 * Remove Punctuations from a String
