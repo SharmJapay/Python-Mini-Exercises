@@ -1,4 +1,4 @@
-"""Different ways on how to convert a list to a string"""
+"""Different ways on how to convert a string to a list"""
 
 import ast
 import json

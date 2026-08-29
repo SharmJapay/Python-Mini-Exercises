@@ -13,6 +13,7 @@ Each file in this repository represents a standalone solution to a specific begi
 
 ## Completed Exercises
 * Concatenate Multiple Strings
+* Convert List to Set
 * Convert List to String
 * Convert String to List
 * Finding Factorial of a Number
