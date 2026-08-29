@@ -4,10 +4,10 @@
 def main():
     """Start the program and run all steps in order."""
 
-    user_input = input("Enter words separated by single space: ")
+    user_input = input("Enter words separated by space: ")
 
-    # Make a list out of user input (except all extra spaces)
-    word_list1 = [word for word in user_input.split(" ") if word != ""]
+    # Make a list out of user input
+    word_list1 = [word for word in user_input.split() if word != ""]
     word_list2 = word_list1.copy()
     word_list3 = word_list1.copy()
 
