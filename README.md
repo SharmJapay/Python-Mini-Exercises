@@ -13,6 +13,7 @@ Each file in this repository represents a standalone solution to a specific begi
 
 ## Completed Exercises
 * Concatenate Multiple Strings
+* Convert Byte to String
 * Convert List to Set
 * Convert List to String
 * Convert List to Tuple
