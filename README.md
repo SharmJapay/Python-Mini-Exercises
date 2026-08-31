@@ -18,6 +18,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert Dictionary to List
 * Convert Dictionary to Set
 * Convert Dictionary to String
+* Convert Dictionary to Tuple
 * Convert Hex to Number
 * Convert List to Dictionary
 * Convert List to Set
