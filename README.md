@@ -29,6 +29,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert Set to Dictionary
 * Convert Set to List
 * Convert Set to String
+* Convert Set to Tuple
 * Convert String to Binary
 * Convert String to Byte
 * Convert String to Dictionary

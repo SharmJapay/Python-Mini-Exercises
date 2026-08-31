@@ -1,4 +1,4 @@
-"""Different ways on how to convert a set to a list"""
+"""Different ways on how to convert a set to a string"""
 
 import json
 
