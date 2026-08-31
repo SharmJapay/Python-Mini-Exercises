@@ -27,6 +27,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert Number to Hex
 * Convert Number to String
 * Convert Set to Dictionary
+* Convert Set to List
 * Convert String to Binary
 * Convert String to Byte
 * Convert String to Dictionary
