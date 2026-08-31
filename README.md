@@ -30,6 +30,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Reverse a String
 * Sort a List in Alphabetical Order
 * Sort Words from Input
+* Two Matrices Addition
 
 ## Running the Code
 Make sure you have Python installed on your system. You can download it from the [Official Python Website](https://python.org).
