@@ -1,4 +1,4 @@
-"""Different ways on how to convert a number to a string"""
+"""Different ways on how to convert a string to a binary"""
 
 
 def main():
