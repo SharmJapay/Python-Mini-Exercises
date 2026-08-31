@@ -20,6 +20,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert List to Set
 * Convert List to String
 * Convert List to Tuple
+* Convert Number to Hex
 * Convert String to List
 * Finding Factorial of a Number
 * Remove Duplicates from a List

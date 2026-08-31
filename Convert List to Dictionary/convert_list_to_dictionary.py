@@ -1,4 +1,4 @@
-"""Different ways on how to convert a byte to a string"""
+"""Different ways on how to convert a list to a dictionary"""
 
 from itertools import zip_longest
 from collections import Counter
