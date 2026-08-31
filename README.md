@@ -22,6 +22,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert List to Tuple
 * Convert Number to Hex
 * Convert Number to String
+* Convert String to Binary
 * Convert String to List
 * Convert String to Number
 * Finding Factorial of a Number
