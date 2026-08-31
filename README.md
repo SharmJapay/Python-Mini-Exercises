@@ -28,6 +28,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert String to List
 * Convert String to Number
 * Convert String to Set
+* Convert String to Tuple
 * Finding Factorial of a Number
 * Remove Duplicates from a List
 * Remove Punctuations from a String
