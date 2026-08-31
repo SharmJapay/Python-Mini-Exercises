@@ -15,6 +15,8 @@ Each file in this repository represents a standalone solution to a specific begi
 * Concatenate Multiple Strings
 * Convert Binary to String
 * Convert Byte to String
+* Convert Hex to Number
+* Convert List to Dictionary
 * Convert List to Set
 * Convert List to String
 * Convert List to Tuple
