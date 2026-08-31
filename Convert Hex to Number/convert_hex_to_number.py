@@ -1,4 +1,4 @@
-"""Different ways on how to convert a hex string into a decimal integer"""
+"""Different ways on how to convert a hex string into a number"""
 
 import ast
 import struct
