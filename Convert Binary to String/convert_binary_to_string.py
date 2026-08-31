@@ -1,4 +1,6 @@
-"""Different ways on how to convert a byte to a string"""
+"""Different ways on how to convert a binary to a string"""
+
+import codecs
 
 
 def main():
@@ -39,6 +41,19 @@ def main():
         string_text3 += chr(decimal)  # Convert to character and append
 
     print(string_text3)  # Output: Hello
+
+    # Method 4: Use of codecs.decode()
+
+    # Converts the binary to base-10 integer and convert to a hexadecimal string without the 0x prefix
+    hex_string = hex(int(binary_string, 2))[2:]
+
+    # If the hex string has an odd length, a '0' is prepended to ensure proper byte alignment
+    if len(hex_string) % 2 != 0:
+        hex_string = "0" + hex_string
+
+    # Convert hex to bytes and converts it to a regular string using .decode()
+    string_text4 = codecs.decode(hex_string, "hex").decode()
+    print(string_text4)
 
 
 if __name__ == "__main__":

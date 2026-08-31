@@ -26,7 +26,7 @@ def main():
 
     print(string_text)
 
-    # Method 3: Use of codecs
+    # Method 3: Use of codecs.decode()
 
     codecs_string = codecs.decode(binary_data, "utf-8")
 
