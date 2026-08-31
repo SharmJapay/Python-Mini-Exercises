@@ -11,14 +11,12 @@ def main():
     my_dict = {"a": 1, "b": 2, "c": 3}
 
     # Method 1: Use of the list() constructor directly
-
     result1 = list(my_dict)
 
     print(result1)
     # Output: ['a', 'b', 'c']
 
     # Method 2: Use of .keys() methods
-
     result2 = list(my_dict.keys())
 
     print(result2)
