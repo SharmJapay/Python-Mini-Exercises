@@ -24,6 +24,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert Number to String
 * Convert String to Binary
 * Convert String to Byte
+* Convert String to Dictionary
 * Convert String to List
 * Convert String to Number
 * Finding Factorial of a Number
