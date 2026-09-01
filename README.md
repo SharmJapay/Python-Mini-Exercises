@@ -37,6 +37,7 @@ Each file in this repository represents a standalone solution to a specific begi
 * Convert String to Number
 * Convert String to Set
 * Convert String to Tuple
+* Convert Tuple to Dictionary
 * Convert Tuple to String
 * Finding Factorial of a Number
 * Remove Duplicates from a List
